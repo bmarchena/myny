@@ -1,0 +1,1 @@
+myny.vercel.app
