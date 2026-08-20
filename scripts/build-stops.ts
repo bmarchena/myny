@@ -45,7 +45,6 @@ async function buildStops() {
 				};
 			}
 
-			console.log(records.length);
 			return;
 		},
 	});

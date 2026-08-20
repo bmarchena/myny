@@ -1,7 +1,6 @@
 export type StationId = string;
 export type PlatformId = string;
 export type RouteId = string;
-export type Direction = "N" | "S";
 
 export interface Station {
 	id: StationId;
@@ -14,5 +13,6 @@ export interface Station {
 export interface Arrival {
 	routeId: RouteId;
 	platformId: PlatformId;
-	direction: Direction;
+	arrivesAt: number;
+	tripId: string;
 }
